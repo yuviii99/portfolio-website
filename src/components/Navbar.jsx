@@ -5,7 +5,7 @@ import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
 
 const Nav = styled.div`
-  background-color: ${({ theme }) => theme.bg};
+  background-color: ${({ isOpen, theme }) => (isOpen ? theme.card_light : theme.bg)};
   height: 80px;
   display: flex;
   align-items: center;
@@ -112,7 +112,7 @@ const MobileMenu = styled.ul`
   list-style: none;
   width: 100%;
   padding: 12px 40px 24px 40px;
-  background: ${({ theme }) => theme.card_light + 99};
+  background: ${({ theme }) => theme.card_light};
   position: absolute;
   top: 80px;
   right: 0;
@@ -131,7 +131,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
   return (
-    <Nav>
+    <Nav isOpen={isOpen}>
       <NavbarContainer>
         <NavLogo to="/"></NavLogo>
 
