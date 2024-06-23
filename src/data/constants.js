@@ -11,10 +11,10 @@ export const Bio = {
     "Software Engineer",
     "Full Stack Developer",
     "API Developer",
-    "Web Developer",
+    "Data Scientist",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Passionate software engineer with a solid foundation in computer science and a knack for problem-solving. Eager to contribute expertise to diverse projects and drive innovation in the evolving tech landscape.",
   github: "https://github.com/yuviii99",
   resume:
     "https://drive.google.com/file/d/1SGKKj7P-fVecjLazLpSO8SWMGRvTGaEh/view?usp=sharing",
@@ -296,7 +296,13 @@ export const experiences = [
     role: "Software Engineer",
     company: "The Australian National University",
     date: "Jan 2024 - Present",
-    desc: "Played a key role in development of ANU College of Engineering, Computing and Cybernetics new website. Designed a cohesive layout for all webpages, ensuring a consistent and user-friendly experience for visitors. Managed and optimized the website's backend configuration using Netlify's CMS for efficient content management. Ensured the successful execution of CI/CD pipeline while deploying updates. Developed custom Ruby plugins to enhance website functionality and improve user experience.",
+    desc: [
+      "Played a key role in development of ANU College of Engineering, Computing and Cybernetics new website.",
+      "Designed a cohesive layout for all webpages, ensuring a consistent and user-friendly experience for visitors.",
+      "Managed and optimized the website's backend configuration using Netlify's CMS for efficient content management.",
+      "Ensured the successful execution of CI/CD pipeline while deploying updates.",
+      "Developed custom Ruby plugins to enhance website functionality and improve user experience."
+    ],
     skills: [
       "jekyll",
       "Ruby",
@@ -313,7 +319,11 @@ export const experiences = [
     role: "Software Engineer Intern",
     company: "ANU School of Computing",
     date: "Jul 2023 - Jan 2024",
-    desc: "Streamlined student graduation for 15+ ANU College of Engineering, Computing and Cybernetics (CECC) degree programs. Built a graduation validation tool with 100% accuracy, incorporating sophisticated algorithms to handle the flexibility of ANU programs. Utilized Flask for the backend development, ensuring efficient data processing. Leveraged modern frontend technologies to create a user-friendly and intuitive interface for student services staff.",
+    desc: [
+      "Built a graduation validation tool streamlining student graduation for 15+ ANU College of Engineering, Computing and Cybernetics (CECC) degree programs with 100% accuracy, incorporating sophisticated algorithms to handle the flexibility of ANU programs.",
+      "Utilized Flask for the backend development, ensuring efficient data processing using pandas.",
+      "Leveraged modern frontend technologies to create a user-friendly and intuitive interface for student services staff.",
+    ],
     skills: [
       "Python",
       "Flask",
@@ -329,7 +339,11 @@ export const experiences = [
     role: "Software Development Engineer",
     company: "Voxogenic Technologies",
     date: "Jun 2021 - July 2022",
-    desc: "Developed robust APIs and web applications using Django, Django REST Framework fostering seamless communication and functionality across diverse platforms. Optimized existing backend systems, achieving a remarkable 40% improvement in performance and reliability, ensuring a smooth user experience. Engineered Alexa Skills, integrating advanced voice command features into IoT systems. This empowered users with a natural and intuitive way to interact, boosting engagement.",
+    desc: [
+      "Developed robust APIs and web applications using Django, Django REST Framework fostering seamless communication and functionality across diverse platforms.",
+      "Optimized existing backend systems, achieving a remarkable 40% improvement in performance and reliability, ensuring a smooth user experience.",
+      "Engineered Alexa Skills, integrating advanced voice command features into IoT systems, empowering users with a natural and intuitive way to interact, boosting engagement."
+    ],
     skills: [
       "Python",
       "Django",
@@ -348,7 +362,11 @@ export const experiences = [
     role: "Undergraduate Research Assistant",
     company: "Indian Institute of Information Technology, Vadodara",
     date: "Jan 2021 - May 2021",
-    desc: "Investigated and identified critical security vulnerabilities within AADHAR, India's national identity management system. Developed solutions employing distributed computing and decentralisation techniques to mitigate risks of data breaches. Enhanced the system's security framework, laying the groundwork for more robust protection against potential data leaks.",
+    desc: [
+      "Investigated and identified critical security vulnerabilities within AADHAR, India's national identity management system.",
+      "Developed solutions employing distributed computing and decentralisation techniques to mitigate risks of data breaches.",
+      "Enhanced the system's security framework, laying the groundwork for more robust protection against potential data leaks."
+    ],
     skills: [
       "Cryptography",
       "Blockchain",
@@ -460,3 +478,14 @@ export const projects = [
   },
   
 ];
+
+export const publications = [
+  {
+    title: "System and Method for Early Detection and Post Disease Detection of Dementia Patients",
+    date: "19 September 2022",
+    conference: "2022 3rd International Conference on Electronics and Sustainable Communication Systems (ICESC)",
+    publisher: "IEEE",
+    description: "For dementia, we currently have one and only psychological treatment recommended by National Health and Care Excellence (NICE) i.e. Cognitive stimulation therapy, hence we need to make sure that we have a proper dementia prediction model. To overcome or to achieve the particular thing, we need to take help of the existing techniques present in the market. Hence, the aim is to use support vector machine and random forest to prove which works better and to get a novel accuracy.",
+    link: "https://ieeexplore.ieee.org/document/9885629",
+  }
+]

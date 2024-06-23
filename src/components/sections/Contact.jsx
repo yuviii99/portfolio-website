@@ -127,15 +127,14 @@ const Contact = () => {
       );
   };
   return (
-    <Container id="Education">
+    <Container id="Contact">
       <Wrapper>
         <Title>Contact</Title>
-        <Desc
-        >
-          Feel free to reach out to me for any questions or opportunities!
+        <Desc>
+          <a style={{color: "white"}} href="mailto:ranayuvraj99@gmail.com">Email me</a> or fill out the form below.
         </Desc>
         <ContactForm onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Get in touch</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />

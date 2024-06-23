@@ -51,6 +51,7 @@ const Description = styled.div`
   width: 100%;
   font-size: 15px;
   font-weight: 400;
+  padding-left: 15px;
   color: ${({ theme }) => theme.text_primary};
   margin-bottom: 10px;
   @media only screen and (max-width: 768px) {
@@ -120,7 +121,11 @@ const ExperienceCard = ({ experience }) => {
         </Body>
       </Top>
       <Description>
-        {experience?.desc && <Span>{experience.desc}</Span>}
+        <ul>
+        {experience?.desc.map((exp, index) => (
+          <li>{exp}</li>
+        ))}
+        </ul>
         {experience?.skills && (
           <>
             <br />
