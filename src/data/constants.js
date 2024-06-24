@@ -1,7 +1,7 @@
 import django_rest_image from '../images/Django_REST.png';
 import three_js_image from '../images/three_js.png';
 import colab_image from '../images/colab.png';
-import anu_logo from '../images/anu_logo.png';
+import anu_logo from '../images/anu_logo.jpeg';
 import voxogenix_logo from '../images/voxogenic_logo.png';
 import iiit_logo from '../images/iiitvadodara_logo.jpeg';
 
