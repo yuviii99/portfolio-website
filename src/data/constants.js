@@ -36,9 +36,17 @@ export const skills = [
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
       },
       {
+        name: "JavaScript",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      },
+      {
         name: "C",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+      },
+      {
+        name: "C#",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
       },
       {
         name: "C++",
@@ -49,10 +57,6 @@ export const skills = [
         name: "Dart",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg",
-      },
-      {
-        name: "JavaScript",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
       },
       {
         name: "Ruby",
