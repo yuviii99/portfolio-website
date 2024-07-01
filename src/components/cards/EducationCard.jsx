@@ -58,14 +58,6 @@ const Description = styled.div`
   }
 `;
 
-const Grade = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary};
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
-  }
-`;
 const Span = styled.div`
   display: -webkit-box;
   max-width: 100%;

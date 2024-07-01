@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroBgAnimation from "../HeroBgAnimation";
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import {
   headContainerAnimation,
@@ -53,24 +52,7 @@ const HeroLeftContainer = styled.div`
     align-items: center;
   }
 `;
-const HeroRightContainer = styled.div`
-  width: 100%;
-  order: 2;
-  display: flex;
-  justify-content: end;
-  @media (max-width: 960px) {
-    order: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-contents: center;
-    margin-bottom: 80px;
-  }
 
-  @media (max-width: 640px) {
-    margin-bottom: 30px;
-  }
-`;
 
 const Title = styled.div`
   font-weight: 700;
@@ -176,19 +158,6 @@ const ResumeButton = styled.a`
     color: white;
 `;
 
-const Img = styled.img`
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  max-width: 400px;
-  max-height: 400px;
-  border: 2px solid ${({ theme }) => theme.primary};
-
-  @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
-  }
-`;
 
 const HeroBg = styled.div`
   position: absolute;

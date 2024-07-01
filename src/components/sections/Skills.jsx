@@ -36,15 +36,6 @@ const Title = styled.div`
     font-size: 32px;
   }
 `;
-const Desc = styled.div`
-  font-size: 18px;
-  text-align: center;
-  font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
-  @media (max-width: 768px) {
-    font-size: 16px;
-  }
-`;
 
 const SkillsContainer = styled.div`
   width: 100%;

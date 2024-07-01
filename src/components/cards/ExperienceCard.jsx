@@ -64,10 +64,6 @@ const Skills = styled.div`
   gap: 12px;
   margin-top: -10px;
 `;
-const Span = styled.div`
-  display: -webkit-box;
-  max-width: 100%;
-`;
 
 const Skill = styled.div`
   font-size: 15px;
