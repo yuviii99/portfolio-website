@@ -446,12 +446,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "PalPulse",
+    title: "Image Forgery Detector",
     description:
-      "A flutter based real time chat application that lets user send and recieve text messages and attachments. The backend is built on the supabase, which is a popular alternate to FireBase.",
+      "A Flask-based application that employs OpenCV and MD5 hashing techniques to determine whether two images are identical or if one has been tampered with.",
     image:
-      "https://raw.githubusercontent.com/yuviii99/palpulse/master/screenshots/palpulse_web_ss.png",
-    github: "https://github.com/yuviii99/palpulse",
+      "https://raw.githubusercontent.com/yuviii99/image-forgery-detector/master/screenshots/ss_1.png",
+    github: "https://github.com/yuviii99/image-forgery-detector",
   },
   {
     id: 1,
