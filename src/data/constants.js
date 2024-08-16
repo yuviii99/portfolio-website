@@ -428,12 +428,12 @@ export const projects = [
   },
   {
     id: 4,
-    title: "API : Recipe App",
+    title: "CryptoViz",
     description:
-      "An django REST API that allows authentication, storing, updating, fetching and deleting of any food recipe on the cloud. It can be integrated with any kind of mobile/web application.",
+      "A Django application that retrieves data dynamically using CoinGecko API to create beautiful visualisations using Charts.js and lets user interact with those while updating them in real-time.",
     image:
-      "https://images.unsplash.com/photo-1623282033815-40b05d96c903?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    github: "https://github.com/yuviii99/recipe-app-api",
+      "https://raw.githubusercontent.com/yuviii99/cryptoViz/master/demo/ss_1.png",
+    github: "https://github.com/yuviii99/cryptoViz",
   },
   {
     id: 2,
