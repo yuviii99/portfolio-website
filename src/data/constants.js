@@ -17,7 +17,7 @@ export const Bio = {
     "Passionate software engineer with a solid foundation in computer science and a knack for problem-solving. Eager to contribute expertise to diverse projects and drive innovation in the evolving tech landscape.",
   github: "https://github.com/yuviii99",
   resume:
-    "https://drive.google.com/file/d/1SGKKj7P-fVecjLazLpSO8SWMGRvTGaEh/view?usp=sharing",
+    "https://drive.google.com/file/d/1ioK6YdSTGK7e59kNDXUNUDjDjJUs1FQV/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/yuvraj99/",
 };
 
