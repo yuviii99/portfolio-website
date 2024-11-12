@@ -299,7 +299,7 @@ export const experiences = [
     img: anu_logo,
     role: "Software Engineer",
     company: "The Australian National University",
-    date: "Jan 2024 - Present",
+    date: "Jan 2024 - Aug 2024",
     desc: [
       "Played a key role in development of ANU College of Engineering, Computing and Cybernetics new website.",
       "Designed a cohesive layout for all webpages, ensuring a consistent and user-friendly experience for visitors.",
