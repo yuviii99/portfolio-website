@@ -216,10 +216,6 @@ const Hero = () => {
               <motion.div {...headContentAnimation}>
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
-
-              <ResumeButton href={Bio.resume} target="_blank">
-                View Resume
-              </ResumeButton>
             </HeroLeftContainer>
             
           </HeroInnerContainer>
