@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.58a0c615.css",
-    "main.js": "/static/js/main.efbd1a6f.js",
+    "main.js": "/static/js/main.3732ae40.js",
     "static/media/voxogenic_logo.png": "/static/media/voxogenic_logo.3643a15f862b0f0d580f.png",
     "static/media/three_js.png": "/static/media/three_js.c6776edc0149c3da7727.png",
     "static/media/Django_REST.png": "/static/media/Django_REST.50a8c01f755bd95bbdba.png",
     "static/media/iiitvadodara_logo.jpeg": "/static/media/iiitvadodara_logo.623e65824382758d51c8.jpeg",
     "index.html": "/index.html",
     "main.58a0c615.css.map": "/static/css/main.58a0c615.css.map",
-    "main.efbd1a6f.js.map": "/static/js/main.efbd1a6f.js.map"
+    "main.3732ae40.js.map": "/static/js/main.3732ae40.js.map"
   },
   "entrypoints": [
     "static/css/main.58a0c615.css",
-    "static/js/main.efbd1a6f.js"
+    "static/js/main.3732ae40.js"
   ]
 }
